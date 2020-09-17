@@ -1,4 +1,4 @@
-# An ecommerce project
+# A restaurant displaying app (USA)
 
 This is an application that displays restaurant information using leafletjs, PHP and SQL.
 
@@ -14,5 +14,5 @@ PostgreSQL database
 
 ## Database setup
 
-Go to [db_connection.php](https://github.com/zululwarrior/ecommerce/blob/master/restaurants-usa-map/db_connection.php) and update \$DB_USERNAME\
-Database is provided as [usa_restaurants.sql](https://github.com/zululwarrior/ecommerce/blob/master/restaurants-usa-map/usa_restaurants.sql)
+Go to [db_connection.php](https://github.com/zululwarrior/restaurants-usa-map/blob/master/db_connection.php) and update \$DB_USERNAME\
+Database is provided as [usa_restaurants.sql](https://github.com/zululwarrior/restaurants-usa-map/blob/master/usa_restaurant.sql)
