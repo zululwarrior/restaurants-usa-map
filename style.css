@@ -1,0 +1,85 @@
+/*styling for the webpage*/
+
+#outer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#mapid {
+  height: 600px;
+  width: 600px;
+  float: left;
+  border-radius: 10px;
+  background-color: #121212;
+}
+
+#filters {
+  padding-left: 20px;
+}
+
+body {
+  background-color: #121212;
+  color: #ababab;
+}
+
+.leaflet-overlay-pane {
+  border-radius: 15px;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #1f1b24;
+  color: #ababab;
+}
+
+.filter_typing {
+  padding: 10px;
+  border-width: 2px;
+  border-color: #ababab;
+  background-color: #121212;
+  color: #ababab;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+#filter_state {
+  padding: 10px;
+  border-width: 2px;
+  border-color: #ababab;
+  background-color: #121212;
+  color: #ababab;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: #1979a9;
+  outline: none;
+  border-radius: 15px;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #1979a9;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #1979a9;
+}
